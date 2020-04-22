@@ -1217,6 +1217,606 @@ spec:
     volumeMounts:
       - mountPath: /root/scripts
         name: host-script
+  - name: client101
+    image: sheenam3/netiperf3
+    command: ["/bin/sh","-c"]
+    args:
+      - ./root/scripts/iclient1.sh 6101;
+    resources: {}
+    securityContext:
+      privileged: true
+      runAsUser: 0
+    volumeMounts:
+      - mountPath: /root/scripts
+        name: host-script
+  - name: client102
+    image: sheenam3/netiperf3
+    command: ["/bin/sh","-c"]
+    args:
+      - ./root/scripts/iclient1.sh 6102;
+    resources: {}
+    securityContext:
+      privileged: true
+      runAsUser: 0
+    volumeMounts:
+      - mountPath: /root/scripts
+        name: host-script
+  - name: client103
+    image: sheenam3/netiperf3
+    command: ["/bin/sh","-c"]
+    args:
+      - ./root/scripts/iclient1.sh 6103;
+    resources: {}
+    securityContext:
+      privileged: true
+      runAsUser: 0
+    volumeMounts:
+      - mountPath: /root/scripts
+        name: host-script
+  - name: client104
+    image: sheenam3/netiperf3
+    command: ["/bin/sh","-c"]
+    args:
+      - ./root/scripts/iclient1.sh 6104;
+    resources: {}
+    securityContext:
+      privileged: true
+      runAsUser: 0
+    volumeMounts:
+      - mountPath: /root/scripts
+        name: host-script
+  - name: client105
+    image: sheenam3/netiperf3
+    command: ["/bin/sh","-c"]
+    args:
+      - ./root/scripts/iclient1.sh 6105;
+    resources: {}
+    securityContext:
+      privileged: true
+      runAsUser: 0
+    volumeMounts:
+      - mountPath: /root/scripts
+        name: host-script
+  - name: client106
+    image: sheenam3/netiperf3
+    command: ["/bin/sh","-c"]
+    args:
+      - ./root/scripts/iclient1.sh 6106;
+    resources: {}
+    securityContext:
+      privileged: true
+      runAsUser: 0
+    volumeMounts:
+      - mountPath: /root/scripts
+        name: host-script
+  - name: client107
+    image: sheenam3/netiperf3
+    command: ["/bin/sh","-c"]
+    args:
+      - ./root/scripts/iclient1.sh 6107;
+    resources: {}
+    securityContext:
+      privileged: true
+      runAsUser: 0
+    volumeMounts:
+      - mountPath: /root/scripts
+        name: host-script
+  - name: client108
+    image: sheenam3/netiperf3
+    command: ["/bin/sh","-c"]
+    args:
+      - ./root/scripts/iclient1.sh 6108;
+    resources: {}
+    securityContext:
+      privileged: true
+      runAsUser: 0
+    volumeMounts:
+      - mountPath: /root/scripts
+        name: host-script
+  - name: client109
+    image: sheenam3/netiperf3
+    command: ["/bin/sh","-c"]
+    args:
+      - ./root/scripts/iclient1.sh 6109;
+    resources: {}
+    securityContext:
+      privileged: true
+      runAsUser: 0
+    volumeMounts:
+      - mountPath: /root/scripts
+        name: host-script
+  - name: client110
+    image: sheenam3/netiperf3
+    command: ["/bin/sh","-c"]
+    args:
+      - ./root/scripts/iclient1.sh 6110;
+    resources: {}
+    securityContext:
+      privileged: true
+      runAsUser: 0
+    volumeMounts:
+      - mountPath: /root/scripts
+        name: host-script
+  - name: client111
+    image: sheenam3/netiperf3
+    command: ["/bin/sh","-c"]
+    args:
+      - ./root/scripts/iclient1.sh 6111;
+    resources: {}
+    securityContext:
+      privileged: true
+      runAsUser: 0
+    volumeMounts:
+      - mountPath: /root/scripts
+        name: host-script
+  - name: client112
+    image: sheenam3/netiperf3
+    command: ["/bin/sh","-c"]
+    args:
+      - ./root/scripts/iclient1.sh 6112;
+    resources: {}
+    securityContext:
+      privileged: true
+      runAsUser: 0
+    volumeMounts:
+      - mountPath: /root/scripts
+        name: host-script
+  - name: client113
+    image: sheenam3/netiperf3
+    command: ["/bin/sh","-c"]
+    args:
+      - ./root/scripts/iclient1.sh 6113;
+    resources: {}
+    securityContext:
+      privileged: true
+      runAsUser: 0
+    volumeMounts:
+      - mountPath: /root/scripts
+        name: host-script
+  - name: client114
+    image: sheenam3/netiperf3
+    command: ["/bin/sh","-c"]
+    args:
+      - ./root/scripts/iclient1.sh 6114;
+    resources: {}
+    securityContext:
+      privileged: true
+      runAsUser: 0
+    volumeMounts:
+      - mountPath: /root/scripts
+        name: host-script
+  - name: client115
+    image: sheenam3/netiperf3
+    command: ["/bin/sh","-c"]
+    args:
+      - ./root/scripts/iclient1.sh 6115;
+    resources: {}
+    securityContext:
+      privileged: true
+      runAsUser: 0
+    volumeMounts:
+      - mountPath: /root/scripts
+        name: host-script
+  - name: client116
+    image: sheenam3/netiperf3
+    command: ["/bin/sh","-c"]
+    args:
+      - ./root/scripts/iclient1.sh 6116;
+    resources: {}
+    securityContext:
+      privileged: true
+      runAsUser: 0
+    volumeMounts:
+      - mountPath: /root/scripts
+        name: host-script
+  - name: client117
+    image: sheenam3/netiperf3
+    command: ["/bin/sh","-c"]
+    args:
+      - ./root/scripts/iclient1.sh 6117;
+    resources: {}
+    securityContext:
+      privileged: true
+      runAsUser: 0
+    volumeMounts:
+      - mountPath: /root/scripts
+        name: host-script
+  - name: client118
+    image: sheenam3/netiperf3
+    command: ["/bin/sh","-c"]
+    args:
+      - ./root/scripts/iclient1.sh 6118;
+    resources: {}
+    securityContext:
+      privileged: true
+      runAsUser: 0
+    volumeMounts:
+      - mountPath: /root/scripts
+        name: host-script
+  - name: client119
+    image: sheenam3/netiperf3
+    command: ["/bin/sh","-c"]
+    args:
+      - ./root/scripts/iclient1.sh 6119;
+    resources: {}
+    securityContext:
+      privileged: true
+      runAsUser: 0
+    volumeMounts:
+      - mountPath: /root/scripts
+        name: host-script
+  - name: client120
+    image: sheenam3/netiperf3
+    command: ["/bin/sh","-c"]
+    args:
+      - ./root/scripts/iclient1.sh 6120;
+    resources: {}
+    securityContext:
+      privileged: true
+      runAsUser: 0
+    volumeMounts:
+      - mountPath: /root/scripts
+        name: host-script
+  - name: client121
+    image: sheenam3/netiperf3
+    command: ["/bin/sh","-c"]
+    args:
+      - ./root/scripts/iclient1.sh 6121;
+    resources: {}
+    securityContext:
+      privileged: true
+      runAsUser: 0
+    volumeMounts:
+      - mountPath: /root/scripts
+        name: host-script
+  - name: client122
+    image: sheenam3/netiperf3
+    command: ["/bin/sh","-c"]
+    args:
+      - ./root/scripts/iclient1.sh 6122;
+    resources: {}
+    securityContext:
+      privileged: true
+      runAsUser: 0
+    volumeMounts:
+      - mountPath: /root/scripts
+        name: host-script
+  - name: client123
+    image: sheenam3/netiperf3
+    command: ["/bin/sh","-c"]
+    args:
+      - ./root/scripts/iclient1.sh 6123;
+    resources: {}
+    securityContext:
+      privileged: true
+      runAsUser: 0
+    volumeMounts:
+      - mountPath: /root/scripts
+        name: host-script
+  - name: client124
+    image: sheenam3/netiperf3
+    command: ["/bin/sh","-c"]
+    args:
+      - ./root/scripts/iclient1.sh 6124;
+    resources: {}
+    securityContext:
+      privileged: true
+      runAsUser: 0
+    volumeMounts:
+      - mountPath: /root/scripts
+        name: host-script
+  - name: client125
+    image: sheenam3/netiperf3
+    command: ["/bin/sh","-c"]
+    args:
+      - ./root/scripts/iclient1.sh 6125;
+    resources: {}
+    securityContext:
+      privileged: true
+      runAsUser: 0
+    volumeMounts:
+      - mountPath: /root/scripts
+        name: host-script
+  - name: client126
+    image: sheenam3/netiperf3
+    command: ["/bin/sh","-c"]
+    args:
+      - ./root/scripts/iclient1.sh 6126;
+    resources: {}
+    securityContext:
+      privileged: true
+      runAsUser: 0
+    volumeMounts:
+      - mountPath: /root/scripts
+        name: host-script
+  - name: clien127
+    image: sheenam3/netiperf3
+    command: ["/bin/sh","-c"]
+    args:
+      - ./root/scripts/iclient1.sh 6127;
+    resources: {}
+    securityContext:
+      privileged: true
+      runAsUser: 0
+    volumeMounts:
+      - mountPath: /root/scripts
+        name: host-script
+  - name: client128
+    image: sheenam3/netiperf3
+    command: ["/bin/sh","-c"]
+    args:
+      - ./root/scripts/iclient1.sh 6128;
+    resources: {}
+    securityContext:
+      privileged: true
+      runAsUser: 0
+    volumeMounts:
+      - mountPath: /root/scripts
+        name: host-script
+  - name: client129
+    image: sheenam3/netiperf3
+    command: ["/bin/sh","-c"]
+    args:
+      - ./root/scripts/iclient1.sh 6129;
+    resources: {}
+    securityContext:
+      privileged: true
+      runAsUser: 0
+    volumeMounts:
+      - mountPath: /root/scripts
+        name: host-script
+  - name: client130
+    image: sheenam3/netiperf3
+    command: ["/bin/sh","-c"]
+    args:
+      - ./root/scripts/iclient1.sh 6130;
+    resources: {}
+    securityContext:
+      privileged: true
+      runAsUser: 0
+    volumeMounts:
+      - mountPath: /root/scripts
+        name: host-script
+  - name: client131
+    image: sheenam3/netiperf3
+    command: ["/bin/sh","-c"]
+    args:
+      - ./root/scripts/iclient1.sh 6131;
+    resources: {}
+    securityContext:
+      privileged: true
+      runAsUser: 0
+    volumeMounts:
+      - mountPath: /root/scripts
+        name: host-script
+  - name: client132
+    image: sheenam3/netiperf3
+    command: ["/bin/sh","-c"]
+    args:
+      - ./root/scripts/iclient1.sh 6132;
+    resources: {}
+    securityContext:
+      privileged: true
+      runAsUser: 0
+    volumeMounts:
+      - mountPath: /root/scripts
+        name: host-script
+  - name: client133
+    image: sheenam3/netiperf3
+    command: ["/bin/sh","-c"]
+    args:
+      - ./root/scripts/iclient1.sh 6133;
+    resources: {}
+    securityContext:
+      privileged: true
+      runAsUser: 0
+    volumeMounts:
+      - mountPath: /root/scripts
+        name: host-script
+  - name: client134
+    image: sheenam3/netiperf3
+    command: ["/bin/sh","-c"]
+    args:
+      - ./root/scripts/iclient1.sh 6134;
+    resources: {}
+    securityContext:
+      privileged: true
+      runAsUser: 0
+    volumeMounts:
+      - mountPath: /root/scripts
+        name: host-script
+  - name: client135
+    image: sheenam3/netiperf3
+    command: ["/bin/sh","-c"]
+    args:
+      - ./root/scripts/iclient1.sh 6135;
+    resources: {}
+    securityContext:
+      privileged: true
+      runAsUser: 0
+    volumeMounts:
+      - mountPath: /root/scripts
+        name: host-script
+  - name: client136
+    image: sheenam3/netiperf3
+    command: ["/bin/sh","-c"]
+    args:
+      - ./root/scripts/iclient1.sh 6136;
+    resources: {}
+    securityContext:
+      privileged: true
+      runAsUser: 0
+    volumeMounts:
+      - mountPath: /root/scripts
+        name: host-script
+  - name: client137
+    image: sheenam3/netiperf3
+    command: ["/bin/sh","-c"]
+    args:
+      - ./root/scripts/iclient1.sh 6137;
+    resources: {}
+    securityContext:
+      privileged: true
+      runAsUser: 0
+    volumeMounts:
+      - mountPath: /root/scripts
+        name: host-script
+  - name: client138
+    image: sheenam3/netiperf3
+    command: ["/bin/sh","-c"]
+    args:
+      - ./root/scripts/iclient1.sh 6138;
+    resources: {}
+    securityContext:
+      privileged: true
+      runAsUser: 0
+    volumeMounts:
+      - mountPath: /root/scripts
+        name: host-script
+  - name: client139
+    image: sheenam3/netiperf3
+    command: ["/bin/sh","-c"]
+    args:
+      - ./root/scripts/iclient1.sh 6139;
+    resources: {}
+    securityContext:
+      privileged: true
+      runAsUser: 0
+    volumeMounts:
+      - mountPath: /root/scripts
+        name: host-script
+  - name: client140
+    image: sheenam3/netiperf3
+    command: ["/bin/sh","-c"]
+    args:
+      - ./root/scripts/iclient1.sh 6140;
+    resources: {}
+    securityContext:
+      privileged: true
+      runAsUser: 0
+    volumeMounts:
+      - mountPath: /root/scripts
+        name: host-script
+  - name: client141
+    image: sheenam3/netiperf3
+    command: ["/bin/sh","-c"]
+    args:
+      - ./root/scripts/iclient1.sh 6141;
+    resources: {}
+    securityContext:
+      privileged: true
+      runAsUser: 0
+    volumeMounts:
+      - mountPath: /root/scripts
+        name: host-script
+  - name: client142
+    image: sheenam3/netiperf3
+    command: ["/bin/sh","-c"]
+    args:
+      - ./root/scripts/iclient1.sh 6142;
+    resources: {}
+    securityContext:
+      privileged: true
+      runAsUser: 0
+    volumeMounts:
+      - mountPath: /root/scripts
+        name: host-script
+  - name: client143
+    image: sheenam3/netiperf3
+    command: ["/bin/sh","-c"]
+    args:
+      - ./root/scripts/iclient1.sh 6143;
+    resources: {}
+    securityContext:
+      privileged: true
+      runAsUser: 0
+    volumeMounts:
+      - mountPath: /root/scripts
+        name: host-script
+  - name: client144
+    image: sheenam3/netiperf3
+    command: ["/bin/sh","-c"]
+    args:
+      - ./root/scripts/iclient1.sh 6144;
+    resources: {}
+    securityContext:
+      privileged: true
+      runAsUser: 0
+    volumeMounts:
+      - mountPath: /root/scripts
+        name: host-script
+  - name: client145
+    image: sheenam3/netiperf3
+    command: ["/bin/sh","-c"]
+    args:
+      - ./root/scripts/iclient1.sh 6145;
+    resources: {}
+    securityContext:
+      privileged: true
+      runAsUser: 0
+    volumeMounts:
+      - mountPath: /root/scripts
+        name: host-script
+  - name: client146
+    image: sheenam3/netiperf3
+    command: ["/bin/sh","-c"]
+    args:
+      - ./root/scripts/iclient1.sh 6146;
+    resources: {}
+    securityContext:
+      privileged: true
+      runAsUser: 0
+    volumeMounts:
+      - mountPath: /root/scripts
+        name: host-script
+  - name: client147
+    image: sheenam3/netiperf3
+    command: ["/bin/sh","-c"]
+    args:
+      - ./root/scripts/iclient1.sh 6147;
+    resources: {}
+    securityContext:
+      privileged: true
+      runAsUser: 0
+    volumeMounts:
+      - mountPath: /root/scripts
+        name: host-script
+  - name: client148
+    image: sheenam3/netiperf3
+    command: ["/bin/sh","-c"]
+    args:
+      - ./root/scripts/iclient1.sh 6148;
+    resources: {}
+    securityContext:
+      privileged: true
+      runAsUser: 0
+    volumeMounts:
+      - mountPath: /root/scripts
+        name: host-script
+  - name: client149
+    image: sheenam3/netiperf3
+    command: ["/bin/sh","-c"]
+    args:
+      - ./root/scripts/iclient1.sh 6149;
+    resources: {}
+    securityContext:
+      privileged: true
+      runAsUser: 0
+    volumeMounts:
+      - mountPath: /root/scripts
+        name: host-script
+  - name: client150
+    image: sheenam3/netiperf3
+    command: ["/bin/sh","-c"]
+    args:
+      - ./root/scripts/iclient1.sh 6150;
+    resources: {}
+    securityContext:
+      privileged: true
+      runAsUser: 0
+    volumeMounts:
+      - mountPath: /root/scripts
+        name: host-script 
 
   volumes:
     - name: host-script
