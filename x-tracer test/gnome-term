@@ -1,0 +1,12 @@
+#!/bin/bash
+start_num=6001
+end_num=6005
+num=1
+for i in $(seq $start_num $end_num) do
+
+#       echo $num echo $i
+        dbus-launch gnome-terminal --tab --title="test$num" --command="bash -c 'kubectl exec -it iperfonubtest -c client1 -- ./root/scripts/iclient1.sh $i; $SHELL'"
+        num=$((num+1))
+
+done
+
